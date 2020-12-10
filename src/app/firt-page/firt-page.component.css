@@ -1,0 +1,33 @@
+.ant-input {
+  width: 200px;
+  margin: 0 8px 8px 0;
+}
+
+.d1{
+  padding: 30px;
+  margin: 30px;
+}
+
+.site-page-header{
+  border:solid 1px blue;
+}
+
+.header{
+  width: auto;
+  height: 5%;
+  border:solid 1px;
+}
+
+.d2{
+float: right;;
+}
+.t2{
+  border: solid 1px;
+}
+
+.th{
+  border: solid 1px black;
+}
+.tb{
+  border: solid 1px black;
+}
