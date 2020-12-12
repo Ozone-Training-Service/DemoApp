@@ -4,8 +4,11 @@
 }
 
 .d1{
-  padding: 30px;
-  margin: 30px;
+  padding: 40px;
+  margin: 40px;
+ background-color: #f5f1ef;
+
+
 }
 
 .site-page-header{
@@ -14,20 +17,105 @@
 
 .header{
   width: auto;
-  height: 5%;
-  border:solid 1px;
+  height: 45px;
+
+  background-color:lightgrey;
+  
 }
 
 .d2{
-float: right;;
+float: right;
+margin-right: 25px;
+margin-top:-25px;
 }
 .t2{
-  border: solid 1px;
+  border: solid 3px black;
 }
 
 .th{
   border: solid 1px black;
+  background-color: lightslategray;
 }
 .tb{
   border: solid 1px black;
+}
+[nz-button] {
+  margin-left:80%;
+  margin-bottom: 12px;
+}
+nz-button-group {
+  margin: 0 8px 8px 0;
+}
+.button{
+  width: auto;
+  height: 15%;
+  padding: 30px;
+  margin: 30px;
+ background-color: #ffffcc;
+}
+[nz-button] {
+  margin-right: 8px;
+  margin-bottom: 12px;
+}
+.second1{
+  width: auto;
+  height:-50px;
+
+ 
+}
+nz-date-picker {
+  margin: 0 8px 12px 0;
+}
+.currency{
+  text-align: center;
+  margin-top: 50%;
+  padding-top: 20%;
+}
+.grand{
+  font-size: large;
+  font-weight: bold;
+}
+.head{
+  font-weight: bold;
+}
+
+.line1{
+  text-align: center;
+  
+}
+.line2{
+float:right;
+margin-top: -15px;
+}
+.currency1{
+  color: blue;
+}
+[nz-icon]{
+  color: blue;
+}
+.table{
+
+ padding: 30px;
+  margin: 30px;
+ background-color: #f5f1ef;
+}
+.sub{
+
+  font-weight: bold;
+}
+.final{
+  font-size: larger;
+  font-weight: bold;
+}
+.second{
+   padding: 30px;
+  margin: 30px;
+ background-color: #f5f1ef;
+}
+[nz-icon]{
+  color: black;
+}
+.pda{
+  margin-left: 30px;
+
 }

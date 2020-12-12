@@ -6,13 +6,13 @@ import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
   templateUrl: './firt-page.component.html',
   styleUrls: ['./firt-page.component.css']
 })
-export class FirtPageComponent  {
+export class FirtPageComponent {
   /**
    *
    */
   constructor() {
-  
-    
+
+
   }
-  
+
 }
