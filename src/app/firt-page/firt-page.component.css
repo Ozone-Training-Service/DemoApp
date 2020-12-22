@@ -8,6 +8,7 @@
   padding: 40px;
   margin: 40px;
  background-color: #f5f1ef;
+ overflow-x:auto;
 }
 .content{
   margin-left: 1%;
@@ -94,7 +95,9 @@ margin-top: -15px;
 margin-right: 2%;
 }
 .currency1{
-  color: blue;
+  color: black;
+  font-weight: bold;
+  padding: inherit;
 }
 [nz-icon]{
   color: blue;
@@ -126,7 +129,7 @@ margin-right: 2%;
 
 }
 img{
-width: 2%;
+width: 1%;
 }
 .column
 {
@@ -137,4 +140,9 @@ width: 2%;
 .formtd
 {
 padding: 0px 15px 0px 90px;
+}
+.drop1
+{
+width: 200px;
+height: 28px;
 }

@@ -41,7 +41,7 @@
       </tr>
 
       <tr>
-        <td class="formtd">PortCall</td>
+        <td class="formtd">Port of Call</td>
         <td class="formtd"><input type="" name="" placeholder="Fujairah" nz-input></td>
 
         <td class="formtd">ETA</td>
@@ -53,7 +53,7 @@
       </tr>
 
       <tr>
-        <td class="formtd">Portlocation</td>
+        <td class="formtd">Port location</td>
         <td class="formtd"><input type="" name="" placeholder="" nz-input></td>
 
         <td class="formtd">NRT</td>
@@ -64,13 +64,13 @@
 
       </tr>
       <tr>
-        <td class="formtd">Purpose of call</td>
+        <td class="formtd">Type of call</td>
         <td class="formtd"><input type="" name="" placeholder="Husbundry Call" nz-input></td>
 
         <td class="formtd">GRT</td>
         <td class="formtd"><input type="" name="" placeholder="2351" nz-input></td>
 
-        <td class="formtd">Port Saty(hours)</td>
+        <td class="formtd">Port Stay(hours)</td>
         <td class="formtd"><input type="" name="" placeholder="" nz-input></td>
 
       </tr>
@@ -105,8 +105,17 @@
     <td><input type="" name="" placeholder="USD" nz-input></td>
 
     <td class="currency1">PDA Currency</td>
-    <td><input type="" name="" placeholder="USD" nz-input></td>
-    <button nz-button nzType="primary">Add Tariff</button> <i nz-icon nzType="delete" nzTheme="outline"></i>
+    <td>
+      <select class="drop1">
+      <option>AED</option>
+      <option>USD</option>
+      <option>SGD</option>
+    </select>
+  </td>
+    <!-- <td><input type="" name="" placeholder="USD" nz-input></td> -->
+    <button nz-button nzType="primary">Add Tariff</button> 
+    <img src="././assets/deleteicon.png">
+    <!-- <i nz-icon nzType="delete" nzTheme="outline"></i> -->
     <br>
 
     <button nz-button nzType="primary">Add Charge item</button>
