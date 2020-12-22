@@ -2,99 +2,97 @@
   </nz-page-header> -->
 <div>
   <div class="header">
-    <p class="pda"> <strong>PDA</strong></p>
+    <h2>PDA</h2>
     <div class="d2">
-      <i nz-icon nzType="check" nzTheme="outline"></i>
-      <i nz-icon nzType="close" nzTheme="outline"></i>
-      <i nz-icon nzType="save" nzTheme="outline"></i>
-      <i nz-icon nzType="edit" nzTheme="outline"></i>
-      <i nz-icon nzType="eye" nzTheme="outline"></i>
+      <i class="icon1" nz-icon nzType="check" nzTheme="outline"></i>
+      <i class="icon1" nz-icon nzType="close" nzTheme="outline"></i>
+      <!-- <i class="icon1" nz-icon nzType="save" nzTheme="outline"></i> -->
+      <i class="icon1" nz-icon nzType="edit" nzTheme="outline"></i>
+      <i class="icon1" nz-icon nzType="eye" nzTheme="outline"></i>
 
     </div>
   </div>
   <div>
-    <table>
+    <table style="margin-left:2%;">
       <tr>
-        <td [rowSpan]="2" class="currency">Valid Till</td>
-        <td [rowSpan]="2" class="currency"><input type="" name="" placeholder="AED" nz-input></td>
-        <td [rowSpan]="2" class="currency">Status:Approved</td>
+        <td [rowSpan]="2" class="currency"><b>Valid Till : </b></td>
+        <td [rowSpan]="2" class="currency"><input type="date" name="" placeholder="Choose" nz-input></td>
+        <td [rowSpan]="2" class="currency"><b>Status : </b></td>
+        <td [rowSpan]="2" class="currency"><input type="text" name="" placeholder="Status" nz-input></td>
 
       </tr>
     </table>
   </div>
   <p class="line2">Last Modified:08/09/2020 02:53 Hrs</p>
 
-
-
-
   <div class="d1">
 
     <table cellspacing="20">
       <tr>
-        <td>Enquiry No</td>
-        <td><input type="" name="" placeholder="ENQFUJ02052020" nz-input></td>
+        <td class="formtd">Enquiry No</td>
+        <td class="formtd"><input type="" name="" placeholder="ENQFUJ02052020" nz-input></td>
 
-        <td>Quantity</td>
-        <td><input type="" name="" placeholder="1000 MT" nz-input></td>
+        <td class="formtd">Quantity</td>
+        <td class="formtd"><input type="" name="" placeholder="1000 MT" nz-input></td>
 
-        <td>Customer</td>
-        <td><input type="" name="" placeholder="Scorpio" nz-input></td>
-
-      </tr>
-
-      <tr>
-        <td>PortCall</td>
-        <td><input type="" name="" placeholder="Fujairah" nz-input></td>
-
-        <td>ETA</td>
-        <td><input type="" name="" placeholder="29/09/2020" nz-input></td>
-
-        <td>Owner</td>
-        <td><input type="" name="" placeholder="Scorpio" nz-input></td>
+        <td class="formtd">Customer</td>
+        <td class="formtd"><input type="" name="" placeholder="Scorpio" nz-input></td>
 
       </tr>
 
       <tr>
-        <td>Portlocation</td>
-        <td><input type="" name="" placeholder="" nz-input></td>
+        <td class="formtd">PortCall</td>
+        <td class="formtd"><input type="" name="" placeholder="Fujairah" nz-input></td>
 
-        <td>NRT</td>
-        <td><input type="" name="" placeholder="Nt565" nz-input></td>
+        <td class="formtd">ETA</td>
+        <td class="formtd"><input type="" name="" placeholder="29/09/2020" nz-input></td>
 
-        <td>Charterer</td>
-        <td><input type="" name="" placeholder="" nz-input></td>
-
-      </tr>
-      <tr>
-        <td>Purpose of call</td>
-        <td><input type="" name="" placeholder="Husbundry Call" nz-input></td>
-
-        <td>GRT</td>
-        <td><input type="" name="" placeholder="2351" nz-input></td>
-
-        <td>Port Saty(hours)</td>
-        <td><input type="" name="" placeholder="" nz-input></td>
+        <td class="formtd">Owner</td>
+        <td class="formtd"><input type="" name="" placeholder="Scorpio" nz-input></td>
 
       </tr>
 
       <tr>
-        <td>Vessel Name</td>
-        <td><input type="" name="" placeholder="MT SEA GLORY" nz-input></td>
+        <td class="formtd">Portlocation</td>
+        <td class="formtd"><input type="" name="" placeholder="" nz-input></td>
 
-        <td>LOA</td>
-        <td><input type="" name="" placeholder="123.37 M" nz-input></td>
+        <td class="formtd">NRT</td>
+        <td class="formtd"><input type="" name="" placeholder="Nt565" nz-input></td>
 
+        <td class="formtd">Charterer</td>
+        <td class="formtd"><input type="" name="" placeholder="" nz-input></td>
 
-        <td>Remark</td>
-        <td><textarea nz-input></textarea></td>
+      </tr>
+      <tr>
+        <td class="formtd">Purpose of call</td>
+        <td class="formtd"><input type="" name="" placeholder="Husbundry Call" nz-input></td>
+
+        <td class="formtd">GRT</td>
+        <td class="formtd"><input type="" name="" placeholder="2351" nz-input></td>
+
+        <td class="formtd">Port Saty(hours)</td>
+        <td class="formtd"><input type="" name="" placeholder="" nz-input></td>
+
       </tr>
 
       <tr>
-        <td>Dead weight</td>
-        <td><input type="" name="" placeholder="" nz-input></td>
+        <td class="formtd">Vessel Name</td>
+        <td class="formtd"><input type="" name="" placeholder="MT SEA GLORY" nz-input></td>
 
-        <td>Cargo Type</td>
-        <td><input type="" name="" placeholder="Gas Oil" nz-input></td>
+        <td class="formtd">LOA</td>
+        <td class="formtd"><input type="" name="" placeholder="123.37 M" nz-input></td>
+
+
+        <td class="formtd">Remark</td>
+        <td class="formtd"><textarea nz-input></textarea></td>
+      </tr>
+
+      <tr>
+        <td class="formtd">Dead weight</td>
+        <td class="formtd"><input type="" name="" placeholder="" nz-input></td>
+
+        <td class="formtd">Cargo Type</td>
+        <td class="formtd"><input type="" name="" placeholder="Gas Oil" nz-input></td>
 
 
       </tr>
@@ -102,8 +100,9 @@
   </div>
   <br>
   <div class="button">
-    <td class="currency1">Thariff Currency</td>
-    <td><input type="" name="" placeholder="AED" nz-input></td>
+
+    <td class="currency1">Tariff Currency</td>
+    <td><input type="" name="" placeholder="USD" nz-input></td>
 
     <td class="currency1">PDA Currency</td>
     <td><input type="" name="" placeholder="USD" nz-input></td>

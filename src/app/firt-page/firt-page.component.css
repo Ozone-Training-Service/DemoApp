@@ -4,17 +4,20 @@
 }
 
 .d1{
+  height: auto;
   padding: 40px;
   margin: 40px;
  background-color: #f5f1ef;
-
-
 }
-
+.content{
+  margin-left: 1%;
+}
 .site-page-header{
   border:solid 1px blue;
 }
-
+h2{
+  margin-left: 2%;
+}
 .header{
   width: auto;
   height: 45px;
@@ -25,8 +28,11 @@
 
 .d2{
 float: right;
-margin-right: 25px;
+margin-right: 50px;
 margin-top:-25px;
+}
+.icon1{
+  padding-right:10px;
 }
 .t2{
   border: solid 3px black;
@@ -68,7 +74,6 @@ nz-date-picker {
 }
 .currency{
   text-align: center;
-
   padding-top: 5%;
 }
 .grand{
@@ -86,6 +91,7 @@ nz-date-picker {
 .line2{
 float:right;
 margin-top: -15px;
+margin-right: 2%;
 }
 .currency1{
   color: blue;
@@ -118,4 +124,17 @@ margin-top: -15px;
 .pda{
   margin-left: 30px;
 
+}
+img{
+width: 2%;
+}
+.column
+{
+    float: left;
+    width: 33%;
+    padding-bottom: 10px;
+}
+.formtd
+{
+padding: 0px 15px 0px 90px;
 }
